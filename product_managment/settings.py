@@ -29,8 +29,8 @@ SECRET_KEY = 'django-insecure-vtwnl)9pe7$5n9_hpd%$1*+*-q8&_85#5u+iv-v#w8%y)sa&9+
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-# CSRF_TRUSTED_ORIGINS = [
-#     'https://django-ecommerce-backend.onrender.com', 'https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = [
+    'https://dashboard-backend-jfha.onrender.com', 'https://*.127.0.0.1']
 
 
 MEDIA_URL = '/media/'
