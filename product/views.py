@@ -121,8 +121,7 @@ class ProductList(generics.ListCreateAPIView):
     queryset = Product.objects.all()
     serializer_class = serializers.ProductListSerializer
 
-    # def get_queryset(self):
-    #     qs = super().get_queryset()
+
 
 
 
